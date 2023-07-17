@@ -8,3 +8,45 @@
 	gap: 40px;
   color: black;
 }
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body{
+	background-color: #000 !important;
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 24px;
+	color: white !important;
+  text-transform: none;
+}
+:root {
+  --azulito: #77B3D9;
+  --amarillo: #fdb603;
+  --azul: #0a1e3d;
+  --grey: #efeded;
+
+}
+.ancho{
+  max-width: 1200px;
+  margin: auto;
+}
+.center{
+	text-align: justify;
+}
+.tittle{
+	text-align: center;
+}
+footer{
+	text-align: center;
+}
+#bg{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+}

@@ -21,9 +21,9 @@ function mostrarDatos ({date,explanation, media_type, title, url}) {
   description.innerHTML = explanation;
   const multimedia = document.querySelector ('#c_multimedia');
     multimedia.innerHTML = `<img src="${url}" class="img-fluid" alt="${url}">`
-}
+ }
 
 function googleTranslateElementInit (){
   new google.translate.TranslateElement(  {pageLanguage: 'en'},
   'google_translate_element')
-};
+}
